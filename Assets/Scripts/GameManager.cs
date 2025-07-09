@@ -32,7 +32,8 @@ public class GameManager : MonoBehaviour
         var existingPlayer = playerScores.Find(p => p.Name == Instance.currPlayerName);
         if (existingPlayer != null)
         {
-            existingPlayer.Score = score;
+            if (score > existingPlayer.Score)
+                existingPlayer.Score = score;
         }
         else
         {
