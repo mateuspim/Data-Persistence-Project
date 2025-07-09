@@ -17,7 +17,7 @@ A Unity Learn project demonstrating data persistence concepts, done as exercise 
 ## Demo Video
 
 Watch a short gameplay demo:
-[![Demo Video](media/main-menu.png)](media/demo.mp4)
+![Demo Video](media/demo.gif)
 
 ## Screenshots
 
