@@ -1,10 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 using UnityEngine.UI;
-
-
-
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
