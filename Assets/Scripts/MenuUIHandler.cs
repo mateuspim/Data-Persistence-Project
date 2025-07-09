@@ -30,7 +30,7 @@ public class MenuUIHandler : MonoBehaviour
             MainMenuText.text = "Best Score: " +
             GameManager.Instance.PlayerHighScoreName +
             " : " +
-            GameManager.Instance.PlayerHighScore;
+            GameManager.Instance.PlayerHighScore.ToString();
         }
     }
 
