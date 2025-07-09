@@ -1360,6 +1360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMenuText: {fileID: 2146855822}
+  playerNameInputField: {fileID: 1885527865}
 --- !u!1 &2146855820
 GameObject:
   m_ObjectHideFlags: 0
