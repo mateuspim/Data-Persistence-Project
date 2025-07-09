@@ -21,7 +21,7 @@ public class MenuUIHandler : MonoBehaviour
     private void UpdateCurrPlayer(string value)
     {
         playerNameInputField.image.color = Color.white;
-        GameManager.Instance.currPlayerName = value;
+        GameManager.Instance.currPlayerName = value.ToUpper();
     }
     public void UpdateText()
     {
