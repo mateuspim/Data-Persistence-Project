@@ -1,5 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
+using UnityEngine.UI;
+
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -7,6 +11,24 @@ using UnityEditor;
 
 public class MenuUIHandler : MonoBehaviour
 {
+    [SerializeField]
+    private Text MainMenuText;
+
+    public void Start()
+    {
+        UpdateText();
+    }
+    public void UpdateText()
+    {
+        if (GameManager.Instance.PlayerHighScoreName != null)
+        {
+            MainMenuText.text = "Best Score: " +
+            GameManager.Instance.PlayerHighScoreName +
+            " : " +
+            GameManager.Instance.PlayerHighScore;
+        }
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene(1);
