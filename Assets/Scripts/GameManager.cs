@@ -49,6 +49,6 @@ public class GameManager : MonoBehaviour
 [System.Serializable]
 class SaveData
 {
-    public string PlayerHighScoreName { get; set; }
-    public int PlayerHighScore { get; set; }
+    public string PlayerHighScoreName;
+    public int PlayerHighScore;
 }
