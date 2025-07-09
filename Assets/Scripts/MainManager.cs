@@ -86,5 +86,7 @@ public class MainManager : MonoBehaviour
             GameManager.Instance.PlayerHighScore = m_Points;
             GameManager.Instance.SaveHighScoreData();
         }
+        GameManager.Instance.AddPlayerScore(m_Points);
+        GameManager.Instance.SavePlayerScores();
     }
 }
