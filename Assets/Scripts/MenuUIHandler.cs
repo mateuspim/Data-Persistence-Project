@@ -47,6 +47,11 @@ public class MenuUIHandler : MonoBehaviour
         }
     }
 
+    public void GoToHighScoreTable()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void Exit()
     {
         GameManager.Instance.SavePlayerScores();
