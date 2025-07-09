@@ -3,21 +3,8 @@
 </p>
 
 # Data-Persistence-Project
+
 A Unity Learn project demonstrating data persistence concepts, done as exercise of the Junior Programmer pathway.
-
-## Screenshots
-
-![Main Menu](images/main-menu.png)
-*Main menu with player name input and high score display.*
-
-![Gameplay](images/gameplay.png)
-*Breakout gameplay with real-time score tracking.*
-
-![Game Over](images/game-over.png)
-*Game over screen showing final score and high score.*
-
-![High Score](images/highscore.png)
-*High Score screen showing all players scores.*
 
 ## Key Features
 
@@ -26,3 +13,23 @@ A Unity Learn project demonstrating data persistence concepts, done as exercise 
 - Clean UI for entering and displaying player names and scores.
 - Follows Unity Junior Programmer best practices.
 - Easily extendable for new features or customization.
+
+## Demo Video
+
+Watch a short gameplay demo:
+[![Demo Video](media/main-menu.png)](media/demo.mp4)
+
+## Screenshots
+
+![Main Menu](media/main-menu.png)
+_Main menu with player name input and high score display._
+
+![Gameplay](media/gameplay.png)
+_Breakout gameplay with real-time score tracking._
+
+![Game Over](media/game-over.png)
+_Game over screen showing final score and high score._
+
+![High Score](media/highscore.png)
+_High Score screen showing all players scores._
+
