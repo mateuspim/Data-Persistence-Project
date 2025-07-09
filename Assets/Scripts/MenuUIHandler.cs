@@ -20,6 +20,7 @@ public class MenuUIHandler : MonoBehaviour
 
     private void UpdateCurrPlayer(string value)
     {
+        playerNameInputField.image.color = Color.white;
         GameManager.Instance.currPlayerName = value;
     }
     public void UpdateText()
@@ -35,7 +36,15 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        if (!string.IsNullOrEmpty(GameManager.Instance.currPlayerName))
+        {
+            playerNameInputField.image.color = Color.white;
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            playerNameInputField.image.color = Color.red;
+        }
     }
 
     public void Exit()
